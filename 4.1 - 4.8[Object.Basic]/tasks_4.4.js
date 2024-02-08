@@ -1,7 +1,7 @@
-//? Использование "this" в литерале объекта
+//? 1. Использование "this" в литерале объекта
 //* Ответ: undefined;
 
-//? Создайте калькулятор
+//? 2. Создайте калькулятор
 let calculator = {
     read(number1, number2) {
         this.a = number1;
@@ -19,7 +19,7 @@ calculator.read(5, 5);
 console.log(calculator.sum());
 console.log(calculator.mul());
 
-//? Цепь вызовов
+//? 3. Цепь вызовов
 let ladder = {
     step: 0,
     up() {
